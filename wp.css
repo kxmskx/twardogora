@@ -1,0 +1,80 @@
+/* ROOT */
+
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* WELCOME PAGE */
+
+.navigation {
+  width: 100%;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header__menu__list {
+  list-style: none;
+  color: #444;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 50px;
+}
+
+.header__menu__text {
+  display: flex;
+  color: #444;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.logo__rectangle {
+  width: 305px;
+  height: 61px;
+  background-color: #ffc31d;
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+  display: flex;
+}
+
+.logo__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+
+.header__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 15px;
+  min-width: 320px;
+  max-width: 1200px;
+  padding-top: 0px;
+}
