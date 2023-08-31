@@ -14,8 +14,12 @@
 
 /* WELCOME PAGE */
 
-.navigation {
+.header {
   width: 100%;
+}
+
+.navigation {
+  /* width: 100%; */
 }
 
 .navi {
@@ -27,7 +31,10 @@
 .header__menu {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  gap: 30px;
 }
 
 .header__menu__list {
@@ -77,4 +84,14 @@
   min-width: 320px;
   max-width: 1200px;
   padding-top: 0px;
+}
+
+.header__icon__svg {
+  width: 29px;
+  height: 29px;
+  fill: black;
+}
+
+.header__icon__link {
+  padding-left: 31px;
 }
