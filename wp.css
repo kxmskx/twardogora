@@ -36,7 +36,6 @@
   align-items: center;
   padding: 0px 15px;
   min-width: 320px;
-  /* max-width: 1200px; */
 }
 
 .header__menu {
@@ -91,5 +90,5 @@
 }
 
 .header__icon__link {
-  padding-left: 31px;
+  margin-left: 81px;
 }
